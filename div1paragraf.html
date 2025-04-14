@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Schiţă cu Margini</title>
+    <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+     }
+
+     header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      border: 2px solid red; /* Margine roşie */
+     }
+
+     .container {
+        display: flex;
+        margin: 20px;
+
+      }
+
+     main {
+        flex: 2;
+        padding: 20px;
+        border: 2px solid green; /* Margine verde */
+
+      }
+.top-aside {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid purple; /* Margine mov */
+
+}
+
+.bottom-aside {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid orange; /* Margine portocalie */
+
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 2px solid brown; /* Margine maro */
+
+}
+
+  </style>
+</head>
+<body>
+
+   <header>
+      <h1>Header</h1>
+</header>
+
+<div class="container">
+   <main>
+       <h2>Conţinut Principal</h2>
+       <p>Aici va fi conținutul principal al paginii.</p>
+</main>
+
+ <aside>
+      <div class="top-aside">
+       <h3>Secțiune Suplimentară 1</h3>
+       <p>Informații adiționale sau reclame.</p>
+</div>
+<div class="bottom-aside">
+      <h3>Secţiune Suplimentară 2</h3>
+      <p>Informații adiționale sau link-uri utile.</p>
+   </div>
+ </aside>
+</div>
+
+<footer>
+   <p>© 2025 Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
